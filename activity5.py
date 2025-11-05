@@ -12,7 +12,7 @@ def has_no_e(word):
             print(True)
 
 def uses_only(word,letters):
-    for word in letters:
+    for letters in word:
         if letters not in word:
             print(False)
         else:
